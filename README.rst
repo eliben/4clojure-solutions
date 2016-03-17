@@ -6,7 +6,7 @@ My solutions to https://www.4clojure.com/problems
 How the code is written and organized
 -------------------------------------
 
-Each problem gets its ``.clj`` source file in ``solutions/src``. The name of the
+Each problem gets its ``.clj`` source file in ``src/solutions``. The name of the
 source file is the problem number and name, and this is the name of the
 namespace as well (with the customary dashes-to-underscores transformation
 applied).

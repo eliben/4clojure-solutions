@@ -5,3 +5,4 @@
     (reduce + coll)))
 
 (mysum [1 2 3])
+(mysum (list 0 -2 5 5))
