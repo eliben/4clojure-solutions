@@ -10,7 +10,7 @@
 (reduce + (map #(* % %) (digits 15)))
 
 (def myssq
-  (fn [coll]
+ e(fn [coll]
     (letfn [(digits [n]
               (if (= 0 n)
                 '()
