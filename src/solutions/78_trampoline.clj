@@ -5,7 +5,7 @@
     (let [v1 (apply f args)]
       (loop [v v1]
         (if (fn? v)
-          (recur (apply v '()))
+          (recur (apply v []))
           v)))))
 
 (defn foo [x]
@@ -14,4 +14,3 @@
      #(foo (do (println :x x) (dec x)))))
 
 (mytrampoline foo 5)
-
